@@ -1,0 +1,7 @@
+body {background-color: black}
+#testim {background-color: grey}
+#cabe, #cabe2 {background-image: url("../img/humo4y.gif");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: 100% auto;
+       background-origin: content-box}
