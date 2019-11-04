@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Juan M. Gienini Confalonieri
+     gienini@hotmail.com            9jmgieni@gmail.com
+     +34 698 813 314                skype:   @gienini
+                                    twitter: @gienini
+     www.linkedin.com/in/gienini    www.flickr.com/photos/gienini
+     www.instagram.com/gienini      www.myheritage.es/site-14287052/gienini
+     www.facebook.com/gienini       www.blogger.com/profile/05047097560032715902
+     drive.google.com/drive/folders/1c2XVDTray4aDv2ljsb5mLnq1m0lMLn1H
+     30/10/2019
+-->
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Galería de retratos</title>
+  <!-- Responsive -->
+  <meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS 4.3.1 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+  body{background-color: gray}
+  .carousel-inner img {display: block;
+                       margin: 0 auto;
+                       width: 1123;
+                       height: 793}
+  </style>
+</head>
+<body>
+<div class="container mt-3">
+ <div id=galeria class="carousel slide" data-ride=carousel>
+  <!-- fotos -->
+  <div class=carousel-inner>
+    <div class="carousel-item active"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1Ol4cEqEdGb-DWL252YYh3g4uxgqeBV4Q" alt="Ale & Vero"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1Nni4jq0WqEQKxI5urCuiRzUMxPotBUAc" alt="Ale & Vero"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1jOi_aLM7HV5zR8iXnbnw08JlmgofqIVT" alt="Ale & Laura"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=11wsqLm04Gw_7BW7kB8_xW7DuFGrP4C36" alt="Alejandra"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1CTW0IowFynWEJ1TKrbE8oBYOEBR2NOF4" alt="Derek"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1949hD9NYtq7t3DrouMQlQSSLA_WECDQg" alt="Derek"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1xp-ZQt8a61OIa6Zhsq9GH31u07hcxPuz" alt="Firenze"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1r31diwiNhc_gUClVEHmZdpOky19lLlfw" alt="Firenze"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1ogq9ZiEI9ASx73U59l2TyJQaibzmao-4" alt="Julian"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1LcpdxHEvRfH76Yf2OpxJ5EFauNzuBPAj" alt="Julieta & Martina"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1ihB0UnOfpaFcrDvTzE9Uj91ThXDOnWEW" alt="Julieta & Martina"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1BVY2vnutktsE-lh_SX8yB1ZlGQy3E1HB" alt="L'Ametlla de Mar"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1ouILXZyzuB6nyo71oxTH272fObOWUpaf" alt="María J."/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1Cb4paXbhshttYZj2EuKgNgyqKCzbfGqQ" alt="Martín"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=14CUT5vq2lxNo6_XrLtSFsAT9Pw3y0EhG" alt="Mercat Medieval"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1cv6_9TVxVqxrcvj9_s79H9kjQWfIWFze" alt="Mercat Medieval"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1zz3VaJ8UINmeVluyY5Dw-xAhtNvbxzkq" alt="Mercat Medieval"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1wJFZZwvBuoPiLvkZls-38W50hf80ZebU" alt="Montse & Aynara"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1GJBDpqmmbx67p6G_uxm-sW5B5G0K0Wb_" alt="Montse"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=16ClaTNV4TqhvTy4rM6IBvzE0dc0n8E7c" alt="Patrik & Derek"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=13vMIxx_oHSQ2vpDaHkc-5PDNAB2D1SWh" alt="Plaza Dorrego"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1MgkQV31Z3Ghge6nVCgNy4Fl1WqYA5DhP" alt="Plaza Dorrego"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1i8uS6g2zsWasxhtf0omeBWpiveNMT9Ta" alt="Plaza Dorrego"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1-_RmDNzlSCQl4C3pdbMBmxZOvHA-bPuw" alt="Sarah"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1y8dJSes4770XiyCaqXAPp0PtpwwDhqQE" alt="Torelló"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1FdCReEDBx3_BqUQG5owNIapkO4aSpVPG" alt="Torelló"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=13pFXC61a3POki74Ox_8EhhwMDngUqv6i" alt="Torelló"/></div>
+    <div class="carousel-item"><img width=auto height=795 src="http://drive.google.com/uc?export=view&id=1PAzebU7mJDm72tZNv0X7sZUhsS8wx68c" alt="Torelló"/></div>
+  </div>
+  <!-- controles -->
+  <a class=carousel-control-prev href=#galeria data-slide=prev>
+    <span class=carousel-control-prev-icon></span></a>
+  <a class=carousel-control-next href=#galeria data-slide=next>
+    <span class=carousel-control-next-icon></span></a>
+ </div>
+</div>
+<!-- JScripts -->
+<div class="">
+ <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
+ <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js></script>
+ <script src=https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js></script>
+ <script>
+ $(document).ready(function(){
+   $(#galeria).carousel();
+   $(".carousel-control-prev").click(function(){$(#galeria).carousel(prev)});
+   $(".carousel-control-next").click(function(){$(#galeria).carousel(next)})});
+ </script>
+</div>
+</body>
+</html>
