@@ -1,10 +1,5 @@
-<style>
   body{color:#665500;
-       font-family: "Times New Roman", serif;
-       background-image:
-              linear-gradient(to right, #aaaa00, white);}
-  a{color:#665500;
-    font-family: "Times New Roman", serif}
+       font-family: "Times New Roman", serif;}
   .fa {color: #665500}
   .fondo-gris, li{background-image:
                       linear-gradient(to right, #ccccdd, white)}
@@ -16,4 +11,3 @@
              background-color: #ffcc00;
              background-image:
                      linear-gradient(to top right, #ddbb00, white);}
-</style>
