@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script>
@@ -22,25 +22,24 @@
          $("img").width(),
          $("img").height());});
     function alto(ww,wh,iw,ih)
-        {$("#galeria").text(ww+" "+wh+" "+iw+" "+ih+" "+ww/wh+" "+iw/ih+" >>");
-          if (ww/wh > iw/ih){document.getElementsByTagName("img")[0].setAttribute("width",  iw*wh/ih-36);
-                             document.getElementsByTagName("img")[0].setAttribute("height", wh-20);}
-             else           {document.getElementsByTagName("img")[0].setAttribute("width",  ww-9);
-                             document.getElementsByTagName("img")[0].setAttribute("height", ih*ww/iw-5);};}
+        {$("#galeria").text(ww+" "+wh+" "+iw+" "+ih+" "+ww/wh+" "+iw/ih+" >> ");
+          if (ww/wh > iw/ih){document.getElementsByTagName("img")[0].setAttribute("width",  iw*wh*0.95/ih);
+                             document.getElementsByTagName("img")[0].setAttribute("height", wh*0.95);}
+             else           {document.getElementsByTagName("img")[0].setAttribute("width",  ww*0.95);
+                             document.getElementsByTagName("img")[0].setAttribute("height", ih*ww*0.95/iw);};}
     /*  {if (ww/wh > iw/ih) {$("#galeria").text(ww+" "+wh+" "+iw+" "+ih+" "+ww/wh+" "+iw/ih+" >>")}
          else               {$("#galeria").text(ww+" "+wh+" "+iw+" "+ih+" "+ww/wh+" "+iw/ih+" <<")};}
  /*        alert(ww+" "+wh+" "+iw+" "+ih);
 
-/*  function alto(hw){$("#ii").height(hw-44);
+ /* function alto(hw){$("#ii").height(hw-44);
                       $("#ii").width(auto);};
- /*
-    document.open();
+ /* document.open();
     document.write("<h1>Hello World</h1>");
     document.close(); */
   </script>
 </head>
 <body>
   <div id=galeria>ssssssss</div>
-  <img height=763 width=1013 src="http://drive.google.com/uc?export=view&id=1Nni4jq0WqEQKxI5urCuiRzUMxPotBUAc" alt="Ale & Vero"/>
+  <img width=304 height=401 src="http://drive.google.com/uc?export=view&id=1jOi_aLM7HV5zR8iXnbnw08JlmgofqIVT" alt="Ale & Laura"/>
 </body>
 </html>
