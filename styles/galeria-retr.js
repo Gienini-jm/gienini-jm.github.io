@@ -10,7 +10,6 @@ mostrar_foto(1);
 /* por tecla */
 function tecla(event) {
   var x = event.key;
-  alert(x);
   if (x=="ArrowDown")                     {mostrar_foto(1)};
   if (x=="ArrowUp")                       {mostrar_foto(0)};
   if (x=="p" || x=="P" || x=="ArrowLeft") {mostrar_foto(nro_f - 1)};
