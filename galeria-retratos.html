@@ -1,72 +1,196 @@
 <!DOCTYPE html>
- <!-- Juan M. Gienini Confalonieri
-     gienini@hotmail.com            9jmgieni@gmail.com
-     +34 698 813 314                skype:   @gienini
-     github.com/Gienini-jm          Gienini-jm.github.io
-                                    twitter: @gienini
-     www.linkedin.com/in/gienini    www.flickr.com/photos/gienini
-     www.instagram.com/gienini      www.myheritage.es/site-14287052/gienini
-     www.facebook.com/gienini       www.blogger.com/profile/05047097560032715902
-     drive.google.com/drive/folders/1c2XVDTray4aDv2ljsb5mLnq1m0lMLn1H
-     30/10/2019 -->
+<!-- Juan M. Gienini Confalonieri
+	gienini@hotmail.com				9jmgieni@gmail.com
+	+34 698 813 314					skype:   @gienini
+	github.com/Gienini-jm			Gienini-jm.github.io
+	                        		twitter: @gienini
+	www.linkedin.com/in/gienini		www.flickr.com/photos/gienini
+	www.instagram.com/gienini		www.myheritage.es/site-14287052/gienini
+	www.facebook.com/gienini		www.blogger.com/profile/05047097560032715902
+	drive.google.com/drive/folders/1c2XVDTray4aDv2ljsb5mLnq1m0lMLn1H
+	30/10/2019 -->
 <html lang="es">
 <head>
-  <!-- Responsive -->
-  <title>Juan M. Gienini - Galería de retratos</title>
-  <meta charset="utf-8">
-  <meta name=author      content="Juan M. Gienini">
-  <meta name=keywords    content="Gienini retratos">
-  <meta name=description content="Galería de fotografía en retrato de Juan M. Gienini">
-  <meta name=viewport    content="width=device-width,
-                                  initial-scale=1">
-  <link rel="shortcut icon"
-        href="images/g-oro.gif"/>
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link href="styles/galeria-retr.css"
-        rel="stylesheet"
-        type="text/css">
-  <style>
-  </style>
+	<!-- Responsive -->
+	<title>Juan M. Gienini - Galería de retratos</title>
+	<meta charset="utf-8">
+	<meta name=author      content="Juan M. Gienini">
+	<meta name=keywords    content="Gienini retratos">
+	<meta name=description content="Galería de fotografía en retrato de Juan M. Gienini">
+	<meta name=viewport    content="width=device-width,
+	                              initial-scale=1">
+	<link rel="shortcut icon"
+    	href="images/g-oro.gif"/>
+	<link rel="stylesheet"
+	    href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+	<link rel="stylesheet"
+	    href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<link href="styles/galeria.css"
+	    rel="stylesheet"
+	    type="text/css"/>
 </head>
-<body onresize="cambio_win()"
-      onkeydown="tecla(event)">
-  <!-- caja de imágenes responsive -->
-  <div class="caja_responsive">
-    <!-- fotos ancho y alto completos con leyenda -->
-    <div class="caja_foto fade">
-      <img width=304 height=401 src="http://drive.google.com/uc?export=view&id=1jOi_aLM7HV5zR8iXnbnw08JlmgofqIVT">
-      <div class="leyen">Ale & Laura</div>
-    </div>
-    <div class="caja_foto fade">
-      <img width=4000 height=3000 src="http://drive.google.com/uc?export=view&id=1Ol4cEqEdGb-DWL252YYh3g4uxgqeBV4Q">
-      <div class="leyen">Ale & Vero</div>
-    </div>
-    <div class="caja_foto fade">
-      <img width=2388 height=3155 src="http://drive.google.com/uc?export=view&id=11wsqLm04Gw_7BW7kB8_xW7DuFGrP4C36">
-      <div class="leyen">Alejandra</div>
-    </div>
-    <div class="caja_foto fade">
-      <img width=2576 height=1368 src="http://drive.google.com/uc?export=view&id=1XyyImNnt2Ctlf2OukbGd7XKyUNERwnK-">
-      <div class="leyen">La Boca</div>
-    </div>
-    <div class="caja_foto fade">
-      <img width=2732 height=1888 src="http://drive.google.com/uc?export=view&id=1FEeblgrHbFKhr9nIzhbBPxgJvXk0bfoy">
-      <div class="leyen">Sant Pau Seguries</div>
-    </div>
-    <!-- botones-flecha prox / prev -->
-    <a class="prev" onclick="mostrar_foto(nro_f - 1)">&#10094;</a>
-    <a class="prox" onclick="mostrar_foto(nro_f + 1)">&#10095;</a>
-  </div>
-  <!-- radio-botones -->
-  <div style="text-align:center">
-    <span class="dot" onclick="mostrar_foto(1)"></span>
-    <span class="dot" onclick="mostrar_foto(2)"></span>
-    <span class="dot" onclick="mostrar_foto(3)"></span>
-    <span class="dot" onclick="mostrar_foto(4)"></span>
-    <span class="dot" onclick="mostrar_foto(5)"></span>
-  </div>
-  <!-- JScripts -->
-  <script  src="styles/galeria-retr.js"></script>
+<body onresize="cambio_win()";
+      onkeydown="tecla(event)";
+      onload="cambio_win()">
+	<div data-role="page" class="pageone">
+		<!-- caja de imágenes responsive -->
+		<div class="caja_responsive">
+			<!-- fotos ancho y alto completos con leyenda -->
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1jOi_aLM7HV5zR8iXnbnw08JlmgofqIVT" width=304 height=401>
+				<div class="leyen">Ale & Laura</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1Ol4cEqEdGb-DWL252YYh3g4uxgqeBV4Q" width=4000 height=3000>
+				<div class="leyen">Ale & Vero</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1Nni4jq0WqEQKxI5urCuiRzUMxPotBUAc" width=4000 height=3000>
+				<div class="leyen">Ale & Vero</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=11wsqLm04Gw_7BW7kB8_xW7DuFGrP4C36" width=2388 height=3155>
+				<div class="leyen">Alejandra</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1CTW0IowFynWEJ1TKrbE8oBYOEBR2NOF4" width=2982 height=3818>
+				<div class="leyen">Derek</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1949hD9NYtq7t3DrouMQlQSSLA_WECDQg" width=2092 height=1920>
+				<div class="leyen">Derek</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1xp-ZQt8a61OIa6Zhsq9GH31u07hcxPuz" width=2353 height=1770>
+				<div class="leyen">Firenze</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1r31diwiNhc_gUClVEHmZdpOky19lLlfw" width=4000 height=3000>
+				<div class="leyen">Firenze</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1ogq9ZiEI9ASx73U59l2TyJQaibzmao-4" width=403 height=622>
+				<div class="leyen">Julian</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1LcpdxHEvRfH76Yf2OpxJ5EFauNzuBPAj" width=1747 height=2171>
+				<div class="leyen">Julieta & Martina</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1ihB0UnOfpaFcrDvTzE9Uj91ThXDOnWEW" width=1629 height=1922>
+				<div class="leyen">Julieta & Martina</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1BVY2vnutktsE-lh_SX8yB1ZlGQy3E1HB" width=4000 height=3000>
+				<div class="leyen">LAmetlla de Mar</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1ouILXZyzuB6nyo71oxTH272fObOWUpaf" width=3206 height=4152>
+				<div class="leyen">María J.</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1Cb4paXbhshttYZj2EuKgNgyqKCzbfGqQ" width=2199 height=3259>
+				<div class="leyen">Martín</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=14CUT5vq2lxNo6_XrLtSFsAT9Pw3y0EhG" width=2438 height=2828>
+				<div class="leyen">Mercat Medieval</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1cv6_9TVxVqxrcvj9_s79H9kjQWfIWFze" width=4000 height=3000>
+				<div class="leyen">Mercat Medieval</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1zz3VaJ8UINmeVluyY5Dw-xAhtNvbxzkq" width=4000 height=3000>
+				<div class="leyen">Mercat Medieval</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1GJBDpqmmbx67p6G_uxm-sW5B5G0K0Wb_" width=2251 height=2795>
+				<div class="leyen">Montse</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1wJFZZwvBuoPiLvkZls-38W50hf80ZebU" width=2819 height=2237>
+				<div class="leyen">Montse & Aynara</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=16ClaTNV4TqhvTy4rM6IBvzE0dc0n8E7c" width=2369 height=3504>
+				<div class="leyen">Patrik & Derek</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=13vMIxx_oHSQ2vpDaHkc-5PDNAB2D1SWh" width=1656 height=2286>
+				<div class="leyen">Plaza Dorrego</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1MgkQV31Z3Ghge6nVCgNy4Fl1WqYA5DhP" width=3000 height=4000>
+				<div class="leyen">Plaza Dorrego</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1i8uS6g2zsWasxhtf0omeBWpiveNMT9Ta" width=4000 height=3000>
+				<div class="leyen">Plaza Dorrego</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1-_RmDNzlSCQl4C3pdbMBmxZOvHA-bPuw" width=630 height=774>
+				<div class="leyen">Sarah</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1y8dJSes4770XiyCaqXAPp0PtpwwDhqQE" width=1703 height=2455>
+				<div class="leyen">Torelló</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1FdCReEDBx3_BqUQG5owNIapkO4aSpVPG" width=3000 height=4000>
+				<div class="leyen">Torelló</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=13pFXC61a3POki74Ox_8EhhwMDngUqv6i" width=4000 height=3000>
+				<div class="leyen">Torelló</div>
+			</div>
+			<div class="caja_foto fade">
+				<img src="http://drive.google.com/uc?export=view&id=1PAzebU7mJDm72tZNv0X7sZUhsS8wx68c" width=2080 height=2301>
+				<div class="leyen">Torelló</div>
+			</div>
+			<!-- botones-flecha prox / prev -->
+			<a class="prev" onclick="mostrar_foto(nro_f - 1)">&#10094;</a>
+			<a class="prox" onclick="mostrar_foto(nro_f + 1)">&#10095;</a>
+		</div>
+		<!-- radio-botones -->
+		<div style="text-align:center">
+			<span class="dot" onclick="mostrar_foto(1)"></span>
+			<span class="dot" onclick="mostrar_foto(2)"></span>
+			<span class="dot" onclick="mostrar_foto(3)"></span>
+			<span class="dot" onclick="mostrar_foto(4)"></span>
+			<span class="dot" onclick="mostrar_foto(5)"></span>
+			<span class="dot" onclick="mostrar_foto(6)"></span>
+			<span class="dot" onclick="mostrar_foto(7)"></span>
+			<span class="dot" onclick="mostrar_foto(8)"></span>
+			<span class="dot" onclick="mostrar_foto(9)"></span>
+			<span class="dot" onclick="mostrar_foto(10)"></span>
+			<span class="dot" onclick="mostrar_foto(11)"></span>
+			<span class="dot" onclick="mostrar_foto(12)"></span>
+			<span class="dot" onclick="mostrar_foto(13)"></span>
+			<span class="dot" onclick="mostrar_foto(14)"></span>
+			<span class="dot" onclick="mostrar_foto(15)"></span>
+			<span class="dot" onclick="mostrar_foto(16)"></span>
+			<span class="dot" onclick="mostrar_foto(17)"></span>
+			<span class="dot" onclick="mostrar_foto(18)"></span>
+			<span class="dot" onclick="mostrar_foto(19)"></span>
+			<span class="dot" onclick="mostrar_foto(20)"></span>
+			<span class="dot" onclick="mostrar_foto(21)"></span>
+			<span class="dot" onclick="mostrar_foto(22)"></span>
+			<span class="dot" onclick="mostrar_foto(23)"></span>
+			<span class="dot" onclick="mostrar_foto(24)"></span>
+			<span class="dot" onclick="mostrar_foto(25)"></span>
+			<span class="dot" onclick="mostrar_foto(26)"></span>
+			<span class="dot" onclick="mostrar_foto(27)"></span>
+			<span class="dot" onclick="mostrar_foto(28)"></span>
+		</div>
+	</div>
+	<script src="styles/galeria.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script>
+	$(document).on("pagecreate",".pageone",function(){
+		$(".pageone").on("swiperight",function(){mostrar_foto(nro_f - 1);});
+		$(".pageone").on("swipeleft", function(){mostrar_foto(nro_f + 1);});});
+	</script>
 </body>
 </html>
