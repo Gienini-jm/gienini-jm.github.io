@@ -6,6 +6,7 @@
   li{background-image:
                       linear-gradient(to right, black, grey)}
   .borde-oro{border: 1px solid #aaaa00}
+  .sub-oro{border-bottom: 1px solid #aaaa00}
   .t-centrado{text-align: center}
   .t-7vw{font-size: 7vw}
   .t-5vw{font-size: 5vw}
