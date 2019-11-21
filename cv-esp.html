@@ -8,8 +8,7 @@
      www.instagram.com/gienini      www.myheritage.es/site-14287052/gienini
      www.facebook.com/gienini       www.blogger.com/profile/05047097560032715902
      drive.google.com/drive/folders/1c2XVDTray4aDv2ljsb5mLnq1m0lMLn1H
-     30/10/2019
--->
+     30/10/2019-->
 <html lang="es" dir="ltr">
 <head>
   <!-- Responsive  -->
@@ -22,21 +21,26 @@
   <meta name=viewport      content="width=device-width,
                                     initial-scale=1,
                                     shrink-to-fit=no">
-  <link rel="shortcut icon" href="images/g-oro.gif"/>
+  <link rel="shortcut icon"
+        href="images/g-oro.gif"/>
+
   <!-- Bootstrap CSS 4.3.1 -->
   <link rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous"/>
+
   <!-- FontAwesome -->
   <link rel="stylesheet"
         href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+
   <link href="styles/CV-index.css"
         rel="stylesheet"
         type="text/css"/>
   <style>
-    body{background-image:
-                linear-gradient(to right, #aaaa00, white)};
+   body{font-family: "Times New Roman", serif;
+        color:#665500;
+        background-image: linear-gradient(to right, #aaaa00, white)};
   </style>
   <link rel="shortcut icon" href="images/g-oro.gif"/>
 </head>
@@ -139,8 +143,8 @@
            IBM AS/400, /3090, S/36, /4341, RS/6000, H. Bull, Palm</div>
           <div class="col-12 sub-oro">
            dBase, DB2/400, DB2, Total/Adabas, IMS DB/DC, Oracle</div>
-          <div class="col-12 sub-oro">Automovilístico, Bancos, SAP Logístico, Logística, EDI, e-commerce, EDIfact, VDA, Préstamos y Seguros, Producción, Financiera, Riesgos, Euro-Gest / X-Analysis, General Ledger (D&B), Salarios, Preventas, Aduanas</div>
-          <div class="col-12">Office: MS Word, Excel, Access, Project</div>
+          <div class="col-12 sub-oro">Office: MS Word, Excel, Access, Project</div>
+          <div class="col-12">Automovilístico, Bancos, SAP Logístico, Logística, EDI, e-commerce, EDIfact, VDA, Préstamos y Seguros, Producción, Financiera, Riesgos, Euro-Gest / X-Analysis, General Ledger (D&B), Salarios, Preventas, Aduanas</div>
         </div>
         <!-- instagram & Twitter & Flickr & Blogger & Mensaje -->
         <div class="borde-oro">
@@ -148,23 +152,22 @@
            <u>Sígueme en:</u></div>
           <!-- instagram -->
           <a href="https://www.instagram.com/gienini/" target="_blank">
-            <h4 class="row justify-content-center">
-              <i class="fa fa-instagram"></i>
-              &nbsp&nbsp-&nbsp&nbspInstagram</h4></a>
-          <div class="row">
-            <div class="col-1"></div>
-            <div class="col-3 borde-oro marco align-self-center">
-              <a href="https://www.instagram.com/gienini/" target="_blank">
-                <img src="images/instag1.jpg" class=img-fluid></a>
-            </div>
-            <div class="col-3 borde-oro marco align-self-center">
-              <a href="https://www.instagram.com/gienini/" target="_blank">
-                <img src="images/instag2.jpg" class=img-fluid></a>
-            </div>
-            <div class="col-3 borde-oro marco align-self-center">
-              <a href="https://www.instagram.com/gienini/" target="_blank">
-                <img src="images/instag3.jpg" class=img-fluid></a>
-            </div>
+            <h4 class="row no-gutters justify-content-center">
+              <i class="fa fa-instagram"></i>&nbsp&nbsp- Instagram</h4>
+          </a>
+          <div class="row no-gutters justify-content-between">
+              <div class="col-3 borde-oro marco">
+                <a href="https://www.instagram.com/gienini/" target="_blank">
+                  <img src="images/instag1.jpg" class=img-fluid></a>
+              </div>
+              <div class="col-3 borde-oro marco">
+                <a href="https://www.instagram.com/gienini/" target="_blank">
+                  <img src="images/instag2.jpg" class=img-fluid></a>
+              </div>
+              <div class="col-3 borde-oro marco">
+                <a href="https://www.instagram.com/gienini/" target="_blank">
+                  <img src="images/instag3.jpg" class=img-fluid></a>
+              </div>
           </div>
           <br>
           <!-- Twitter -->
@@ -183,7 +186,7 @@
           <a href="https://www.blogger.com/profile/05047097560032715902"
              target="_blank">
             <h4 class="row justify-content-center">
-              <img src="images/blogger.png" width=10%>
+              <img src="images/blogger.png" width=5%>
               &nbsp&nbsp-&nbsp&nbspBlogger</h4></a>
           <br>
           <!-- Mensaje -->
@@ -191,16 +194,16 @@
            <div class="col t-3vw t-centrado"><u>Envía un mensaje</u></div>
           </div>
           <div class="col-12">
-            <form id=contacta name=contact_form method=POST action="">
+            <form id=contacta name=contact_form method="post" enctype="text/plain"
+                  action="mailto:gienini@hotmail.com?subject=Contacto%20desde%20la%20página%20web%20Gienini-JM%20CV%20Esp">
               <div class="row contact_pad">
-                  <input  type=text  name=nom   class=form-control
-                          placeholder="(tu nombre)*" id=contacto/>
-                  <input  type=email name=email class=form-control
-                          placeholder="(tu dirección de correo)*"/>
-                  <textarea name=mensaje class=form-control
-                            placeholder="(tu mensaje)*"></textarea>
-                  <button type=button class="btn btn-secondary btn-outline-warning">
-                         enviar</button>
+                <input type=text  name=name   class=form-control
+                       placeholder="(tu nombre)*"/>
+                <input type=email name=mail class=form-control
+                       placeholder="(tu dirección de e-mail)*"/>
+                <textarea name=comment class=form-control
+                         placeholder="(tu mensaje)*"></textarea>
+                <input type=submit class="btn btn-secondary btn-outline-warning"/>
               </div>
             </form>
           </div>
@@ -210,105 +213,141 @@
       <div class="col-md-8">
          <!-- Estudios -->
         <div class="borde-oro">
-           <div class="col-12 degradado">
-           </div>
+          <div class="sub-oro"> <!-- titulo estudios -->
            <div class="row">
-            <div class="col-9 t-3vw t-centrado sub-oro"><u>Estudios</u></div>
-            <div class="col-3 t-3vw t-centrado"><u>Centro</u></div>
+            <div class="col-9 t-3vw t-centrado"><u>Estudios</u></div>
+            <div class="col-3 t-3vw t-derecha"><u>Centro</u></div>
            </div>
+          </div>
+          <div class="sub-oro"> <!-- estudio 1 -->
            <div class="row">
-            <div class="col-9 sub-oro">Ingeniería Técnica Sistemas Informáticos</div>
-            <div class="col-3">Univ. Buenos Aires</div>
+            <div class="col-9">Ingeniería Técnica Sistemas Informáticos</div>
+            <div class="col-3 t-derecha">Univ. Buenos Aires</div>
            </div>
+          </div>
+          <div class="sub-oro"> <!-- estudio 2 -->
            <div class="row">
-            <div class="col-9 sub-oro">Prog Estructurada / Adm. BBDD / Progr. Cobol, RPG, C, PL/1, SQL</div>
-            <div class="col-3">IBM Argentina</div>
+            <div class="col-9">Prog Estructurada / Adm. BBDD / Progr. Cobol, RPG, C, PL/1, SQL</div>
+            <div class="col-3 t-derecha">IBM Argentina</div>
            </div>
+          </div>
+          <div class="sub-oro"> <!-- estudio 3 -->
            <div class="row">
-            <div class="col-9 sub-oro">Comunicaciones y Transmisión de Datos</div>
-            <div class="col-3">Academia Ing. Eléctrica</div>
+              <div class="col-9">Comunicaciones y Transmisión de Datos</div>
+              <div class="col-3 t-derecha">Academia Ing. Eléctrica</div>
            </div>
+          </div>
+          <div class="sub-oro"> <!-- estudio 4 -->
            <div class="row">
-            <div class="col-9 sub-oro">Dirección Producción y Calidad Total / ISO 9001 / Prog. Flash y Web sites</div>
-            <div class="col-3">Intac Vic</div>
+              <div class="col-9 col-md-10">Dirección Producción y Calidad Total / ISO 9001 / Prog. Flash y Web sites</div>
+              <div class="col-3 col-md-2 t-derecha">Intac Vic</div>
            </div>
+          </div>
+          <div class="sub-oro"> <!-- estudio 5 -->
            <div class="row">
-            <div class="col-9 sub-oro">Visual Basic 6.0 y .NET</div>
-            <div class="col-3">CIEF Bcn</div>
+              <div class="col-9">Visual Basic 6.0 y .NET</div>
+              <div class="col-3 t-derecha">CIEF Bcn</div>
            </div>
+          </div>
+          <div class="sub-oro"> <!-- estudio 6 -->
            <div class="row">
-            <div class="col-9 sub-oro">ITILv3 Foundations / ISO-IEC 20.000 Fundamentos</div>
-            <div class="col-3">New Horizons</div>
+              <div class="col-9">ITILv3 Foundations / ISO-IEC 20.000 Fundamentos</div>
+              <div class="col-3 t-derecha">New Horizons</div>
            </div>
+          </div>
+          <div>                 <!-- estudio 7 -->
            <div class="row">
-            <div class="col-9">ITILv3 Intermediate, Prince2, CobIT e ISO 27.000</div>
-            <div class="col-3">New Horizons</div>
-           </div>             
+              <div class="col-9">ITILv3 Intermediate, Prince2, CobIT e ISO 27.000</div>
+              <div class="col-3 t-derecha">New Horizons</div>
+           </div>
+          </div>
         </div>
         <!-- Experiencia laboral -->
         <div class="borde-oro">
           <div class="col-12 t-3vw t-centrado sub-oro"><u>Experiencia Laboral</u></div>
           <div> <!-- Experiencia 1 -->
             <div class="row">
-              <div class="col-12">ene. 2018 - jun. 2019: <b>Consultor Especialista mainframe - PMO</b> en SEAT / VW</div>
+              <div class="col-12">ene. 2018 - jun. 2019: <b>Consultor Especialista mainframe - PMO</b> en SEAT / VW.</div>
             </div>
-            <div class="sub-oro">Soporte a proyectos de migración mainframe a Open-Java-Oracle (22M
-               líneas de código, 135.000 fuentes, 254 aplicaciones: Finanzas, Logística,
-               Compras, Comercial, Bancaria, Aduanas, EDI)</div></div>
+            <div class="sub-oro">Soporte a proyectos de migración mainframe a Open-Java-Oracle (22M líneas de código, 135.000 fuentes, 254 aplicaciones: Finanzas, Logística, Compras, Comercial, Bancaria, Aduanas, EDI).</div></div>
           <div> <!-- Experiencia 2 -->
             <div class="row">
-              <div class="col-12">oct. 2016 - dic. 2017: <b>Consultor Aplicaciones Logísticas</b> en Booths Supermarkets - Ripon, UK</div>
+              <div class="col-12">oct. 2016 - dic. 2017: <b>Consultor Aplicaciones Logísticas</b> en Booths Supermarkets - Ripon, UK.</div>
             </div>
-            <div class="sub-oro">Soporte a proyectos de aplicaciones logísticas. Cadena de 25 supermercados (alimentación) en Inglaterra</div></div>
+            <div class="sub-oro">Soporte a proyectos de aplicaciones logísticas. Cadena de 25 supermercados (alimentación) en Inglaterra.</div></div>
           <div> <!-- Experiencia 3 -->
             <div class="row">
-              <div class="col-12">ene. 2016 - sep. 2016: <b>Consultor Especialista EDI y de Aplicaciones Logísticas</b> en SEAT / VW</div>
+              <div class="col-12">ene. 2016 - sep. 2016: <b>Consultor Especialista EDI y de Aplicaciones Logísticas</b> en SEAT / VW.</div>
             </div>
-            <div class="sub-oro">Soporte a proyectos de entornos mainframe (mantenimientos correctivos y preventivos). Desarrollos
-              de aplicaciones /3090 en PL/1 y COBOL. Clientes: VW, SEAT, laCaixa, Generalitat de Catalunya</div></div>
+            <div class="sub-oro">Soporte a proyectos de entornos mainframe (mantenimientos correctivos y preventivos). Desarrollos de aplicaciones /3090 en PL/1 y COBOL. Clientes: VW, SEAT, laCaixa, Generalitat de Catalunya.</div></div>
           <div> <!-- Experiencia 4 -->
             <div class="row">
-              <div class="col-12">may. 2015 - dic. 2015: <b>Instructor en TI especialista en mainframe</b> en Loyal Infinity</div>
+              <div class="col-12">may. 2015 - dic. 2015: <b>Instructor en TI especialista en mainframe</b> en Loyal Infinity.</div>
             </div>
-            <div><u>MANGO:</u> Instrucción de Programación COBOL a 16 técnicos</div>
-            <div><u>Europastry:</u> Instrucción de AS/400 y DB2 Avanzado a 6 técnicos</div>
-            <div class="sub-oro"><u>Capgemini Murcia:</u> instrucción de Programación COBOL & PL/1 a 14 técnicos</div></div>
+            <div><u>MANGO</u>: Instrucción de Programación COBOL a 16 técnicos.</div>
+            <div><u>Europastry</u>: Instrucción de AS/400 y DB2 Avanzado a 6 técnicos.</div>
+            <div class="sub-oro"><u>Capgemini Murcia</u>: instrucción de Programación COBOL & PL/1 a 14 técnicos.</div></div>
           <div> <!-- Experiencia 5 -->
            <div class="row">
-            <div class="col-12">jun. 2014 - feb. 2015: <b>Consultor EDI y de apl. logísticas en sector automoción</b> en VW Navarra</div>
+            <div class="col-12">jun. 2014 - feb. 2015: <b>Consultor EDI y de apl. logísticas en sector automoción</b> en VW Navarra.</div>
            </div>
-           <div class="sub-oro">Soporte y gestión a proyectos EDI (migración de Partners de mainframe a SAP). Guía y soporte a 
-             equipos EDI externos: Proveedores logísticos y de TI, bancos y en varias lenguas: Inglés, Castellano, Catalán, Italiano</div></div>
+           <div class="sub-oro">Soporte y gestión a proyectos EDI (migración de Partners de mainframe a SAP). Guía y soporte a equipos EDI externos: Proveedores logísticos y de TI, bancos y en varias lenguas: Inglés, Castellano, Catalán, Italiano.</div></div>
           <div> <!-- Experiencia 6 -->
            <div class="row">
-            <div class="col-12">mar. 2010 - mayo 2014: <b>Consultor Especialista EDI y de Aplicaciones Logísticas</b> en SEAT / VW</div>
+            <div class="col-12">mar. 2010 - mayo 2014: <b>Consultor Especialista EDI y de Aplicaciones Logísticas</b> en SEAT / VW.</div>
            </div>
-           <div class="sub-oro">Soporte a proyectos de entornos mainframe y SAP (mantenimientos correctivos y preventivos). Desarrollos 
-             e implantación de aplicaciones /3090 en PL/1 y COBOL (Logística, Bancaria, Aduanas y Financiera)</div></div>
+           <div class="sub-oro">Soporte a proyectos de entornos mainframe y SAP (mantenimientos correctivos y preventivos). Desarrollos e implantación de aplicaciones /3090 en PL/1 y COBOL (Logística, Bancaria, Aduanas y Financiera).</div></div>
           <div> <!-- Experiencia 7 -->
            <div class="row">
-            <div class="col-12">jul. 2000 - feb. 2010: <b>Analista Funcional y Orgánico</b> en ZURICH y SEAT / VW</div>
+            <div class="col-12">jul. 2000 - feb. 2010: <b>Analista Funcional y Orgánico</b> en ZURICH y SEAT / VW.</div>
            </div>
-           <div><u>Zurich</u> Analista Orgánico: Mantenimiento de aplicaciones de seguros y automoción</div>
-           <div class="sub-oro"><u>SEAT/VW</u> A. Funcional y Orgánico: Control de Proyectos, Análisis, desarrollos e 
-             implantación en PL/1 y COBOL de aplicaciones bancaria, logística, financiera y hacienda. Adaptación de comunicaciones 
-             /3090-Hand-Helds. Redacción y traducción de especificaciones y normas EDI. Control de proyectos, Análisis Funcional y 
-             Orgánico. Desarrollo documentación para certificación ISO/9001</div></div>
+           <div><u>Zurich</u>: Mantenimiento de aplicaciones de seguros y automoción.</div>
+           <div class="sub-oro"><u>SEAT/VW</u>: Control de Proyectos, Análisis, desarrollos e implantación en PL/1 y COBOL de aplicaciones bancaria, logística, financiera y hacienda. Adaptación de comunicaciones /3090-Hand-Helds. Redacción y traducción de especificaciones y normas EDI. Control de proyectos, Análisis Funcional y Orgánico. Desarrollo documentación para certificación ISO/9001.</div></div>
           <div> <!-- Experiencia 8 -->
            <div class="row">
-            <div class="col-12">sep. 1997 - jun. 2000: <b>Analista Orgánico y Jefe Proyecto</b> en Banco Sabadell y CAHISPA</div>
+            <div class="col-12">sep. 1997 - jun. 2000: <b>Analista Orgánico y Jefe Proyecto</b> en Banco Sabadell y CAHISPA.</div>
            </div>
-           <div><u>Banco Sabadell</u> Jefe Proyecto: Desarrollo, implantación, migración y adaptación de aplicaciones de Seguros, 
-             Carteras y Riesgos</div>
-           <div class="sub-oro"><u>CAHISPA</u> Analista Org/Funcional: Apl Financieras, Seguros Generales y Análisis/mercado 
-             Visual/COBOL</div></div>
+           <div><u>Banco Sabadell</u>: Desarrollo, implantación, migración y adaptación de aplicaciones de Seguros, Carteras y Riesgos</div>
+           <div class="sub-oro"><u>CAHISPA</u>: Apl Financieras, Seguros Generales y Análisis/mercado Visual/COBOL.</div></div>
           <div> <!-- Experiencia 9 -->
            <div class="row">
-            <div class="col-12">mar. 1995 - ago. 1997: <b>Analista Orgánico</b> en SEAT / VW</div>
+            <div class="col-12">mar. 1995 - ago. 1997: <b>Analista Orgánico</b> en SEAT / VW.</div>
            </div>
-           <div">Desarrollos e implantación de aplicaciones de Logística. Adaptación
-              y mantenimiento de comunicaciones en /3090. Análisis Orgánico y Programación.
-               Instrucción al personal en Easytrieve y buenas prácticas / ISO-9001.</div></div>
+           <div class="sub-oro">Desarrollos e implantación de aplicaciones de Logística. Adaptación y mantenimiento de comunicaciones en /3090. Análisis Orgánico y Programación. Instrucción al personal en Easytrieve y buenas prácticas / ISO-9001.</div></div>
+          <div> <!-- Experiencia 10 -->
+           <div class="row">
+            <div class="col-12">ene. 1994 - feb. 1995: <b>Consultor externo</b> en Interbroker.</div>
+           </div>
+           <div class="sub-oro">Migración y adaptación de aplicaciones y BBDD (Cuentas de seguros, Bancario y Carteras). Desarrollos e implantación en RPG de aplicaciones de Cuentas de Seguros y Reaseguros. Carteras y aplicaciones bancarias.</div></div>
+          <div> <!-- Experiencia 11 -->
+           <div class="row">
+            <div class="col-12">jul. 1993 - dic. 1993: <b>Consultor externo</b> en laCaixa.</div>
+           </div>
+           <div class="sub-oro">Migración (de RS/6000 en C a /3090 en PL/1) y adaptación de aplicaciones de Riesgos, financieras y bancarias.</div></div>
+          <div> <!-- Experiencia 12 -->
+           <div class="row">
+            <div class="col-12">ene. 1993 - dic. 1993: <b>Consultor externo</b> en Pinsos Montseny.</div>
+           </div>
+           <div class="sub-oro">Interconexión de IBM /36 con AS/400. Instrucción al personal.</div></div>
+          <div> <!-- Experiencia 13 -->
+           <div class="row">
+            <div class="col-12">jun. 1991 - dic. 1992: <b>Responsable de informática</b> en Grupo Fitinvest.</div>
+           </div>
+           <div><u>Rango-Fitinvest</u>: Dirección, Instalación e implementación del Centro de informática. Presupuestos, planning, ajuste de aplicaciones, OS/400 y Aplicaciones de PC’s. Instrucción al personal</div>
+           <div><u>Explasa-Fitinvest</u>: Supervisión del Centro de informática. Desarrollo de aplicaciones comerciales. Implantación de aplicación Euro-Gest. Migración de Microvax con red de PC’s a AS/400</div>
+           <div class="sub-oro"><u>Cárnicas Cadí</u>: Implantación de aplicación comercial y contable. Interconexiones con empresas del grupo.</div></div>
+          <div> <!-- Experiencia 14 -->
+           <div class="row">
+            <div class="col-12">ene. 1991 - jun. 1991: <b>Consultor externo</b> en Doppler.</div>
+           </div>
+           <div class="sub-oro">Comunicaciones PC’s - Buscapersonas, Centralitas telefónicas y radio - enlaces.</div></div>
+          <div> <!-- Experiencia 15 -->
+           <div class="row">
+            <div class="col-12">ene. 1985 - dic. 1990: <b>Analista y Supervisor telecomunicaciones</b> en Coca-Cola.</div>
+           </div>
+           <div><u>Analista programador</u>: Desarrollo y mantenimiento aplicaciones (Pre-ventas Censos y Encuestas de Mercados, Activos Fijos, Publicidad, Control de accesos y Flujos de Materiales y Sueldos)</div>
+           <div><u>System programmer</u>: Instalación, Desarrollo y mantenimiento de Sistema Operativo. Desarrollo de utilitarios. Instalación de aplicaciones en PC. Migración de /4331 y /36 al AS/400</div>
+           <div><u>Supervisor Telecom</u>: Molinetes, básculas y micros de controles de accesos Instrucción a técnicos y usuarios.</div></div>
         </div>
       </div>
     </div>
