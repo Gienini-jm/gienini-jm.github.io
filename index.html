@@ -38,7 +38,9 @@
         type="text/css">
 
   <style>
-   body{background-color: black;};
+   body{font-family: "Times New Roman", serif;
+        color:#665500;
+        background-color: black;};
    #t{}
    #cabe{background-image: url("images/humo3a.gif");
         background-repeat: no-repeat;
@@ -95,7 +97,7 @@
    <div class="container-fluid" id=cabe>
     <div class="row no-gutters align-self-center">
       <div class="col-5 col-sm-5 col-md-4 col-lg-3 col-xl-2">
-          <img src="images/en belgranox.png" style="width: 80%">
+          <img src="images/en belgranox.png" style="width: 80%"/>
       </div>
       <div class="col-7 col-sm-7 col-md-8 col-lg-9 col-xl-10 align-content-center">
         <br>
@@ -106,16 +108,17 @@
         <br>
         <div class="row justify-content-center">
           <div class="col-11 col-sm-10 col-md-8 col-lg-6 col-xl-4">
-            <form id=contacta name=contact_form method=POST action="">
+            <form id=contacta name=contact_form method="post" enctype="text/plain"
+                  action="mailto:gienini@hotmail.com?subject=Contacto%20desde%20la%20página%20web%20Gienini-JM">
+
               <div class="row contact_pad">
-                <input type=text  name=nom   class=form-control
+                <input type=text  name=name   class=form-control
                        placeholder="(tu nombre)*"/>
-                <input type=email name=email class=form-control
+                <input type=email name=mail class=form-control
                        placeholder="(tu dirección de e-mail)*"/>
-                <textarea name=mensaje class=form-control
+                <textarea name=comment class=form-control
                          placeholder="(tu mensaje)*"></textarea>
-                <button type=button class="btn btn-secondary btn-outline-warning">
-                        enviar</button>
+                <input type=submit class="btn btn-secondary btn-outline-warning"/>
               </div>
             </form>
           </div>
