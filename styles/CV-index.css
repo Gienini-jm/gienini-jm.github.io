@@ -7,6 +7,12 @@
                       linear-gradient(to right, black, grey)}
   .borde-oro{border: 1px solid #aaaa00}
   .sub-oro{border-bottom: 1px solid #aaaa00}
+  .sl{word-wrap: break-all;
+      overflow-wrap: break-all;
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;}
   .t-centrado{text-align: center}
   .t-7vw{font-size: 7vw}
   .t-5vw{font-size: 5vw}
