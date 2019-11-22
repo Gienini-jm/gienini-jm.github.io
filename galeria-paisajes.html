@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- Juan M. Gienini Confalonieri
+	gienini@hotmail.com				9jmgieni@gmail.com
+	+34 698 813 314					skype:   @gienini
+	github.com/Gienini-jm			Gienini-jm.github.io
+	                        		twitter: @gienini
+	www.linkedin.com/in/gienini		www.flickr.com/photos/gienini
+	www.instagram.com/gienini		www.myheritage.es/site-14287052/gienini
+	www.facebook.com/gienini		www.blogger.com/profile/05047097560032715902
+	drive.google.com/drive/folders/1c2XVDTray4aDv2ljsb5mLnq1m0lMLn1H
+	30/10/2019 -->
+<html lang="es">
+<head>
+	<!-- Responsive -->
+	<title>Juan M. Gienini - Galería de paisajes</title>
+	<meta charset="utf-8">
+	<meta name=author      content="Juan M. Gienini">
+	<meta name=keywords    content="Gienini retratos">
+	<meta name=description content="Galería de fotografía en paisaje de Juan M. Gienini">
+	<meta name=viewport    content="width=device-width,
+	                              initial-scale=1">
+	<link rel="shortcut icon"
+    	href="images/g-oro.gif"/>
+	<link rel="stylesheet"
+	    href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+	<link rel="stylesheet"
+	    href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<link href="css/galeria.css"
+	    rel="stylesheet"
+	    type="text/css"/>
+</head>
+<body onresize="ww = window.innerWidth;
+ 				wh = window.innerHeight;
+				wr = ww / wh;
+				calculo_prop()";
+		onkeydown="tecla(event)";
+		onload="ww = window.innerWidth;
+				wh = window.innerHeight;
+				wr = ww / wh;
+				mostrar_foto(1)">
+ <div data-role="page" class="pageone">
+		<!-- caja de imágenes responsive -->
+		<div class="caja_responsive">
+			<!-- fotos ancho y alto completos con leyenda -->
+			<div class="caja_foto" style="display: flex">
+				<img img=" ">
+				<div class="leyen">Ale & Laura</div>
+			</div>
+			<!-- botones-flecha prox / prev -->
+			<a class="prev" onclick="mostrar_foto(nro_f - 1)">&#10094;</a>
+			<a class="prox" onclick="mostrar_foto(nro_f + 1)">&#10095;</a>
+		</div>
+		<!-- radio-botones -->
+ </div>
+ <div>
+	<script src="styles/galeria-pais.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script>
+		$(document).on("pagecreate",".pageone",function(){
+			$(".pageone").on("swiperight",function(){mostrar_foto(nro_f - 1);});
+			$(".pageone").on("swipeleft", function(){mostrar_foto(nro_f + 1);});});
+	</script>
+ </div>
+</body>
+</html>
