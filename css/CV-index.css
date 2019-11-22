@@ -1,0 +1,24 @@
+  .fa {color: #665500}
+  .fondo-gris{background-image:
+                      linear-gradient(to right, #ccccdd, white)}
+  li{background-image:
+                      linear-gradient(to right, #ccccdd, white)}
+  .borde-oro{border: 1px solid #aaaa00}
+  .sl{word-wrap: break-all;
+      overflow-wrap: break-all;
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;}
+  .sub-oro{border-bottom: 1px solid #aaaa00}
+  .t-centrado{text-align: center}
+  .t-derecha{text-align: right;}
+  .t-7vw{font-size: 7vw}
+  .t-5vw{font-size: 5vw}
+  .t-3vw{font-size: 3vw}
+  .marco, li{margin: 5px;
+             padding: 2px}
+  .degradado{height: 22px;
+             background-color: #ffcc00;
+             background-image:
+                     linear-gradient(to top right, #ddbb00, white);}
