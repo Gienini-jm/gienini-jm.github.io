@@ -1,12 +1,13 @@
   .fa {color: #665500}
   .fondo-gris{background-image:
-                      linear-gradient(to right, #ccccdd, white)}
+                      linear-gradient(to right, #eeefdd, white)}
   li{background-image:
                       linear-gradient(to right, #ccccdd, white)}
   .borde-oro{border: 1px solid #aaaa00}
-  .sl{word-wrap: break-all;
-      overflow-wrap: break-all;
+  .sl{word-wrap: break-word;
+      overflow-wrap: break-word;
       -webkit-hyphens: auto;
+      -epub-hyphens: auto;
       -moz-hyphens: auto;
       -ms-hyphens: auto;
       hyphens: auto;}
